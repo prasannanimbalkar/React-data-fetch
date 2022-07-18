@@ -18,6 +18,8 @@ function Swr() {
 
   return (
     <div>
+          <h1>SWR</h1>
+
       <img width={500} src={data.message} />
     </div>
   );

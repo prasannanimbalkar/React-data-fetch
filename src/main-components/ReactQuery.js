@@ -12,13 +12,16 @@ function ReactQuery() {
     },
   });
 
-  return (
+  return (<>
+    <h1>REact Query</h1>
+
     <QueryClientProvider client={client}>
       <Suspense fallback={<h1> Loading...</h1>}>
         <Dog1 />
         <Dog2 />
       </Suspense>
     </QueryClientProvider>
+    </>
   );
 }
 

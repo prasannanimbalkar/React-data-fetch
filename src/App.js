@@ -8,9 +8,9 @@ import Swr from "./main-components/Swr";
 function App() {
   return (
     <div className="App">
-      {/* <Fetch />
+      <Fetch />
       <Axios />
-      <Swr /> */}
+      <Swr />
       <ReactQuery />
     </div>
   );

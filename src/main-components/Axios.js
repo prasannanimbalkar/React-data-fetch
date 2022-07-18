@@ -10,6 +10,7 @@ function Axios() {
   }, []);
   return (
     <div>
+      <h1>Axios</h1>
       <img width={500} src={data} />
     </div>
   );
